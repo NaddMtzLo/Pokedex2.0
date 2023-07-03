@@ -2,7 +2,7 @@ import React, { useEffect, useState } from 'react'
 import Header from '../components/pokedex/Header'
 import { useSelector } from 'react-redux'
 import axios from 'axios'
-import PokemonList from '../components/pokedex/Pokemonlist'
+import PokemonList from '../components/pokedex/PokemonList'
 
 
 const Pokedex = () => {
